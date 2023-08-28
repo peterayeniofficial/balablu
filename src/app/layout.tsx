@@ -1,12 +1,13 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
+import { ClerkProvider } from '@clerk/nextjs';
+import './globals.css';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Balablu: Track and rate Bola Ahmed Tinubu",
+  title: 'Balablu: Track and rate Bola Ahmed Tinubu',
   description:
-    "An OpenSource Civic Tech tool to Track and Rate Bola Ahmed Tinubu the 16th President of Nigeria",
+    'An OpenSource Civic Tech tool to Track and Rate Bola Ahmed Tinubu the 16th President of Nigeria',
 };
 
 export default function RootLayout({
@@ -15,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang='en'>
+        <body className={inter.className}>{children}</body>
+      </html>
+    </ClerkProvider>
   );
 }
