@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Achievements() {
   return (
@@ -15,10 +16,12 @@ function Achievements() {
               data-te-ripple-init
               data-te-ripple-color='light'
             >
-              <img
+              <Image
                 src='https://img.freepik.com/free-photo/empty-hallway-background_23-2149408813.jpg?w=1480&t=st=1694084287~exp=1694084887~hmac=b3a8d1c13847ea98e2701858c9051ed7f302e14e3fc84eed235fb5f9b757ecd5'
                 className='w-full'
                 alt='Louvre'
+                width={200}
+                height={200}
               />
               <a href='#!'>
                 <div className='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100'></div>
@@ -72,10 +75,12 @@ function Achievements() {
               data-te-ripple-init
               data-te-ripple-color='light'
             >
-              <img
+              <Image
                 src='https://img.freepik.com/free-vector/job-hunting_23-2147503011.jpg?w=1060&t=st=1694085124~exp=1694085724~hmac=daaf215a957f36f5e0c6126f66a20cb809f5e2a5f3ecb5d281acfbfc0e94453c'
                 className='w-full'
                 alt='Louvre'
+                width={200}
+                height={200}
               />
               <a href='#!'>
                 <div className='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100'></div>
@@ -129,10 +134,12 @@ function Achievements() {
               data-te-ripple-init
               data-te-ripple-color='light'
             >
-              <img
+              <Image
                 src='https://img.freepik.com/free-vector/graph-chart-with-moving-up-arrow-stock-market-financial-investment-diagram-blue-background_56104-1814.jpg?w=1800&t=st=1694084588~exp=1694085188~hmac=56c744e2fa38c4ced7cb2c0d49bffe92031c64ac6b4d81e57f049b860ec001fb'
                 className='w-full'
                 alt='Louvre'
+                width={200}
+                height={200}
               />
               <a href='#!'>
                 <div className='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100'></div>
@@ -142,7 +149,7 @@ function Achievements() {
 
           <div className='w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6'>
             <h3 className='mb-4 text-2xl font-bold'>
-              70% Growth in the country's economy
+              70% Growth in the country&apos;s economy
             </h3>
             <div className='mb-4 flex items-center text-sm font-medium text-yellow-600'>
               <svg

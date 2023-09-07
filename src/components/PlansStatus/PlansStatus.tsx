@@ -20,35 +20,35 @@ function PlansStatus() {
             <tbody>
               <SinglePromise
                 title='Affordable Healthcare for All'
-                date='1/2/2024'
+                date={new Date()}
                 desciption='Ensuring quality healthcare accessible to every citizen.'
                 state='Pending'
                 vote='2000 votes'
               />
               <SinglePromise
                 title='Green Energy Revolution'
-                date='1/2/2024'
+                date={new Date()}
                 desciption='Transitioning to 100% clean energy, creating green jobs.'
                 state='Completed'
                 vote='2000 votes'
               />
               <SinglePromise
                 title='Stronger Economy, Better Jobs'
-                date='1/2/2024'
+                date={new Date()}
                 desciption='Promoting small businesses and job growth.'
                 state='Completed'
                 vote='2000 votes'
               />
               <SinglePromise
                 title='Safer Communities, Criminal Justice Reform'
-                date='1/2/2024'
+                date={new Date()}
                 desciption='Equitable law enforcement and prison system reform.'
                 state='Completed'
                 vote='2000 votes'
               />
               <SinglePromise
                 title='Stronger Economy, Better Jobs'
-                date='1/2/2024'
+                date={new Date()}
                 desciption='Promoting small businesses and job growth.'
                 state='Closed'
                 vote='2000 votes'
