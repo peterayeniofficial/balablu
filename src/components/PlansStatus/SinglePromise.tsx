@@ -16,8 +16,8 @@ function SinglePromise({
   return (
     <tr>
       <td className='pt-6'>
-        <div className='flex items-center'>
-          <div className='bg-gray-100 rounded-sm p-2.5'>
+        <div className='md:flex md:items-center flex  justify-between'>
+          <div className='md:bg-gray-100 md:rounded-sm p-2.5 hidden'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
@@ -36,9 +36,9 @@ function SinglePromise({
           <div className='pl-3'>
             <div className='flex items-center text-sm leading-none'>
               <p className='font-semibold text-gray-800'>{title}</p>
-              <p className='text-blue-500 ml-3'>{date.toString()}</p>
+              <p className='text-blue-500 ml-3'>{date.toLocaleDateString()}</p>
             </div>
-            <div className='w-12 h-fit'>
+            <div className='md:w-12 md:h-fit md:flex hidden'>
               <p className='text-xs md:text-sm leading-none text-gray-600 mt-2'>
                 {desciption}
               </p>
