@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Achievements() {
   return (
-    <div className='container my-24 mx-auto md:px-6'>
+    <div className='container my-6 mx-auto md:px-6'>
       <section className='mb-32'>
         <h2 className='mb-16 text-center text-2xl font-bold'>
           Latest Achievements
